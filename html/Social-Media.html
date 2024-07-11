@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Butter's Portfolio</title>
+    <link rel="Website Icon" type="image/png" href="/images/Website Icon.png">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/jquery/jquery  3-7-1.js"></script>
+
+</head>
+
+<body>
+<img src="/images/SOCMED new.png" id="image1" class="animation">
+<div class="Socmed-Design">
+    <button id="social-media-button" onclick="openCanvaLink()">Check here!</button>
+</div>
+<div class="container">
+    <nav id="header">
+        <div class="nav-logo">
+            <h1 class="nav-name">Butter.</h1>
+            <h5 class="nav-name1"> Nur Batrisyia Tajuddin</h5>
+        </div>
+        <div class="new-menu" id="myNavMenu">
+            <ul class="nav_menu_list">
+                <li class="nav_list">
+                    <a href="#home1" class="nav-link" id="home1">HOME</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#About1" class="nav-link" id="About1">ABOUT</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#Work1" class="nav-link" id="Work1">WORK</a>
+                    <div class="circle"></div>
+                </li>
+            </ul>
+        </div>
+        
+        <section class="aboutMe">
+            <div class="linked-in img">
+                <img src="/images/linked-in.png" alt="LinkedIn Profile">
+            </div>
+
+
+    <script src="/javascript/script.js"></script>
+    
+  
+    
+</body>
+
+<style>
+
+body{
+background-color:#A259FF;
+}
+img{
+position: absolute;;
+width:100%;
+zoom:100%;
+margin-top:80px;
+
+
+}
+
+#social-media-button{
+  position:absolute;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-family: Montserrat;
+  height:56px;
+  width:235px;
+  border:0px solid  #c1f995;
+  border-radius: 25px;
+  background-color: #c1f995 ;
+  font-family: Montserrat;
+  font-size:20px ;
+  box-shadow: 0px 0px 10px #cff7b1;
+  animation: move-left-right 3s ease;
+  cursor:pointer;
+    top:760px;
+left:130px;
+  padding:10px;
+  color: #000000; 
+
+
+}
+
+#social-media-button:hover {
+  background-color:#8eed40; /* Change background color on hover */
+  box-shadow: 0px 0px 12px #9cff4b; /* Change box shadow on hover */
+}
+
+
+nav{
+
+position:fixed;
+top:0;
+left:0;
+display: flex;
+justify-content: space-between;
+width:100%;
+height:100px;
+line-height: 90px;
+background: rgb(43, 42, 42);
+padding-inline:9vw;
+z-index:100;
+animation: move-top-down 2s ease;
+-webkit-animation: move-top-down 2s ease;
+align-items: center;
+justify-content: center; /* Centers the navbar horizontally */
+}
+
+.nav-link:hover {
+background-color: #555;
+border-radius: 5px;
+}
+
+.nav-logo{
+
+animation: move-top-down 2s ease;
+
+}
+
+.nav-name{
+
+font-family: Megan Demo Font;
+font-weight:600;
+font-size: 36px;
+margin-top:10px;
+text-align: left;
+  color: #f1f1f1;
+  text-decoration: underline;
+  animation: move-top-down 2s ease;
+  text-decoration-thickness:2px;
+  text-underline-offset: 10px;
+  letter-spacing: 3px;
+
+}
+.nav-logo{
+
+position:absolute;
+left:90px;
+
+}
+
+.linked-in img{
+position: absolute;
+  width:40px;
+  border-radius:7px;
+  margin-top: -20px;
+right: 90px;
+  animation: move-top-down 2s ease;
+}
+
+
+
+</style>
+
+<script>
+ $("#social-media-button").click(function() {
+        // Redirect to the specified URL
+       
+    // Open the specified URL in a new tab
+    window.open("https://www.canva.com/design/DAF3D6dHFXw/3PGq1w95jnKk92AGv8omHQ/edit?utm_content=DAF3D6dHFXw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton", "_blank");
+
+
+    });
+    
+    $("#home1").click(function() {
+      
+       
+    
+      // Redirect after the animation duration
+
+          window.location.href = "/html/index.html";
+          
+  });
+  $("#About1").click(function() {
+      
+       
+    
+      // Redirect after the animation duration
+
+          window.location.href = "/html/index.html#About";
+         
+
+          
+  });
+  
+  $("#Work1").click(function() {
+      
+       
+    
+      // Redirect after the animation duration
+
+          window.location.href = "/html/index.html#Work";
+          
+  });
+  
+  
+</script>
+
+</html>
