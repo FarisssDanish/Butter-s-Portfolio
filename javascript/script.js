@@ -41,7 +41,20 @@ $(document).ready(function() {
         // Redirect to the specified URL
         window.open("https://www.linkedin.com/in/nur-batrisyia-61609a2b7/", "_blank");
     });
+   
+    $("#linkedin-section").click(function() {
+        // Redirect to the specified URL
+        window.open("https://www.linkedin.com/in/nur-batrisyia-61609a2b7/", "_blank");
+    });
+    
+  
+    
     $("#call-logo").click(function() {
+        // Redirect to the specified URL
+        window.location.href = "https://wa.me/60123777629";
+
+    });
+    $("#call-section").click(function() {
         // Redirect to the specified URL
         window.location.href = "https://wa.me/60123777629";
 
@@ -50,6 +63,11 @@ $(document).ready(function() {
         // Redirect to the specified URL
         window.location.href = "mailto:batrisyiaatajuddin@gmail.com";
 
+    });
+    $("#gmail-section").click(function() {
+        // Redirect to the specified URL
+        window.location.href = "mailto:batrisyiaatajuddin@gmail.com";
+        cursor:Pointer;
     });
     
 
