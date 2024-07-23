@@ -66,7 +66,7 @@ $(document).ready(function() {
     });
     $("#gmail-section").click(function() {
         // Redirect to the specified URL
-        window.location.href = "mailto:batrisyiaatajuddin@gmail.com";
+        window.location.href = "mailto:batrisyiaatajuddin@yahoo.com";
         cursor:Pointer;
     });
     
